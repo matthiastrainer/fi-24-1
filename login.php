@@ -1,5 +1,5 @@
 <?php
-// Wir empfangen den http Header mit Formularfeldern die mit Namen identifiziert werden
+// Wir empfangen den http Header mit Formularfeldern die mit Namen identifiziert werden geändert
 $username = $_POST['user'];
 $passwort = $_POST['passwort']."\r\n";
 $dateinamen = "users.txt";
